@@ -316,12 +316,6 @@ Container(
 那么，通过 **widget** 组合实现一些动画效果就到此为止，可以看到在flutter 中 **万物基于widget** 绝非空口无凭，
 
 
-# 附录
-
-demo地址如下：
-
-[【weather_animation_demo】](https://github.com/asjqkkkk/weather_animation_demo)
-
 (ps:demo中我将控件进行了封装，可以很方便的调用，本来是打算写成一个dart package的，后来觉得效果比较简单，还是用作学习素材最为合适！
 封装后，通过 **droppingType** 参数来控制下降的是与还是雪，通过 **droppingLevel** 参数控制雨雪的数量。
 也可以通过 **droppingWidget** 参数来自定义下落的控件。
